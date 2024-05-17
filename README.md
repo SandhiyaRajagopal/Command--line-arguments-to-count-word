@@ -28,7 +28,7 @@ End the program.
 #Command line arguments - word count
 #Developed by: SANDHIYA R
 #Register number:212223240146
-```
+
 import sys
 count=0
 with open(sys.srgv[1],'r')as f1:
@@ -36,6 +36,7 @@ with open(sys.srgv[1],'r')as f1:
         word=line.split()
         count += len(word)
     print("word count in file = ",count)
+```
 ### OUTPUT:
 
 ![image](https://github.com/SandhiyaRajagopal/Command--line-arguments-to-count-word/assets/144870852/9c768990-4dbf-4ec7-96e2-8fb102cca888)
