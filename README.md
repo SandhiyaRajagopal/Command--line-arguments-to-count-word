@@ -24,11 +24,11 @@ Print the output.
 End the program.
 
 ## PROGRAM:
-
+```
 #Command line arguments - word count
 #Developed by: SANDHIYA R
 #Register number:212223240146
-
+```
 import sys
 count=0
 with open(sys.srgv[1],'r')as f1:
